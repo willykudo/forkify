@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "author": "Willy",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.0",
+    "parcel": "^2.10.0",
+    "sass": "^1.69.3"
+  },
+  "dependencies": {
+    "core-js": "^3.33.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.0"
+  }
+}
